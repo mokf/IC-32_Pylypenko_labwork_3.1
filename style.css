@@ -1,0 +1,211 @@
+/* Загальний стиль для всієї сторінки */
+body {
+    font-family: 'Roboto', 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Селектор для класу highlight */
+.highlight {
+    background-color: #e7f5ff;
+    border: 2px solid #b3d8ff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Селектори для хедеру */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Селектори для секцій */
+section {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+/* Секція для зображення та таблиці */
+.image-table {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    align-items: flex-start;
+}
+
+.image-table img {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-table .table-container {
+    width: 70%;
+}
+
+.image-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.image-table th, .image-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.image-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* Секція для форми та списку */
+.form-list {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-container, .list-container {
+    width: 50%;
+}
+
+.list-container {
+    margin-left: 40px; /* Відступ між формою та списком */
+}
+
+
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+.form-container input, .form-container textarea, .form-container button {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}
+
+.list-container h3 {
+    margin-top: 0;
+}
+
+.list-container ol, .list-container ul {
+    margin-left: 2rem;
+    font-size: 1.9rem; /* Збільшуємо розмір шрифта */
+}
+
+.list-container li {
+    font-size: 1.5rem; /* Збільшуємо шрифт для кожного елемента списку */
+}
+
+
+/* Селектори для таблиці */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* Селектори для форми */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea, form button {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Селектор для ідентифікаторів */
+#service-name, #price, #payment-date, #notes {
+    width: 100%;
+}
+
+#notes {
+    resize: vertical;
+}
+
+/* Селектор для футера */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
